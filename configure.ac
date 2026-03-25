@@ -1,5 +1,5 @@
 AC_PREREQ([2.69])
-AC_INIT([dell-bd-prochot-fix], [0.1.0], [https://github.com/jacksoncrook/dell-bd-prochot-fix])
+AC_INIT([dell-bd-prochot-fix], [0.1.0])
 AM_INIT_AUTOMAKE([1.14 -Wall -Werror -Wno-extra-portability foreign no-dist-gzip dist-zip])
 AM_SILENT_RULES([yes])
 LT_INIT([disable-static])
