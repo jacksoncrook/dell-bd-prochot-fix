@@ -1,4 +1,4 @@
-#ifndef MSR_TOOLS_VERSION_H
-#define MSR_TOOLS_VERSION_H
-#define VERSION_STRING "msr-tools-1.3"
+#ifndef DELL_BD_PROCHOT_FIX_H
+#define DELL_BD_PROCHOT_FIX_H
+#define VERSION_STRING "dell-bd-prochot-fix 0.1"
 #endif

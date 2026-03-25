@@ -1,9 +1,9 @@
 AC_PREREQ([2.69])
-AC_INIT([msr-tools], [1.3.0], [https://01.org/msr-tools])
+AC_INIT([dell-bd-prochot-fix], [0.1.0], [https://github.com/jacksoncrook/dell-bd-prochot-fix])
 AM_INIT_AUTOMAKE([1.14 -Wall -Werror -Wno-extra-portability foreign no-dist-gzip dist-zip])
 AM_SILENT_RULES([yes])
 LT_INIT([disable-static])
-AC_CONFIG_SRCDIR([cpuid.c])
+AC_CONFIG_SRCDIR([rdmsr.c])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
@@ -30,7 +30,7 @@ AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
 
 AC_MSG_RESULT([
-        msr-tools $VERSION
+        dell-bd-prochot-fix $VERSION
         ========
 
         prefix:                 ${prefix}
