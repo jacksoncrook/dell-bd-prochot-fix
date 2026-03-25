@@ -78,7 +78,7 @@ void rdmsr_on_cpu(uint32_t reg, int cpu)
 		} else if (errno == EIO) {
 			fprintf(stderr, "rdmsr: CPU %d doesn't support MSRs\n",
 				cpu);
-			exit(3);
+			exit(2);
 		} else {
 			perror("rdmsr: open");
 			exit(127);
