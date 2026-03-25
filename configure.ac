@@ -3,7 +3,7 @@ AC_INIT([dell-bd-prochot-fix], [0.1.0])
 AM_INIT_AUTOMAKE([1.14 -Wall -Werror -Wno-extra-portability foreign no-dist-gzip dist-zip])
 AM_SILENT_RULES([yes])
 LT_INIT([disable-static])
-AC_CONFIG_SRCDIR([rdmsr.c])
+AC_CONFIG_SRCDIR([disablebdprochot.c])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
